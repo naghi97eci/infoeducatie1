@@ -1,0 +1,544 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ManagementBook-gestionareC.N.D.V
+</name>
+</assembly>
+<members>
+<member name="T:ManagementBook___gestionare_C.N.D.V.Orarprof.OrarprofDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Orarprof.OrarprofRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Orarprof.OrarprofRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Orarprof">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.OrarprofTableAdapters.OrarprofTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.OrarprofTableAdapters.TableAdapterManager.UpdateUpdatedRows(ManagementBook___gestionare_C.N.D.V.Orarprof,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.OrarprofTableAdapters.TableAdapterManager.UpdateInsertedRows(ManagementBook___gestionare_C.N.D.V.Orarprof,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.OrarprofTableAdapters.TableAdapterManager.UpdateDeletedRows(ManagementBook___gestionare_C.N.D.V.Orarprof,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.OrarprofTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.OrarprofTableAdapters.TableAdapterManager.UpdateAll(ManagementBook___gestionare_C.N.D.V.Orarprof)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.OrarprofTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.OrarprofTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.OrarprofTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Clase.ClaseDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Clase.ClaseRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Clase.ClaseRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Clase">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.ClaseTableAdapters.ClaseTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.ClaseTableAdapters.TableAdapterManager.UpdateUpdatedRows(ManagementBook___gestionare_C.N.D.V.Clase,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.ClaseTableAdapters.TableAdapterManager.UpdateInsertedRows(ManagementBook___gestionare_C.N.D.V.Clase,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.ClaseTableAdapters.TableAdapterManager.UpdateDeletedRows(ManagementBook___gestionare_C.N.D.V.Clase,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.ClaseTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.ClaseTableAdapters.TableAdapterManager.UpdateAll(ManagementBook___gestionare_C.N.D.V.Clase)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.ClaseTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.ClaseTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.ClaseTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Orar_Prof.OrarprofDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Orar_Prof.OrarprofRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Orar_Prof.OrarprofRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Orar_Prof">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Orar_ProfTableAdapters.OrarprofTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.Orar_ProfTableAdapters.TableAdapterManager.UpdateUpdatedRows(ManagementBook___gestionare_C.N.D.V.Orar_Prof,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.Orar_ProfTableAdapters.TableAdapterManager.UpdateInsertedRows(ManagementBook___gestionare_C.N.D.V.Orar_Prof,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.Orar_ProfTableAdapters.TableAdapterManager.UpdateDeletedRows(ManagementBook___gestionare_C.N.D.V.Orar_Prof,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.Orar_ProfTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.Orar_ProfTableAdapters.TableAdapterManager.UpdateAll(ManagementBook___gestionare_C.N.D.V.Orar_Prof)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Orar_ProfTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Orar_ProfTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Orar_ProfTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Orarstudenti.OrarstudentiDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Orarstudenti.OrarstudentiRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Orarstudenti.OrarstudentiRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Orarstudenti">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.OrarstudentiTableAdapters.OrarstudentiTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.OrarstudentiTableAdapters.TableAdapterManager.UpdateUpdatedRows(ManagementBook___gestionare_C.N.D.V.Orarstudenti,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.OrarstudentiTableAdapters.TableAdapterManager.UpdateInsertedRows(ManagementBook___gestionare_C.N.D.V.Orarstudenti,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.OrarstudentiTableAdapters.TableAdapterManager.UpdateDeletedRows(ManagementBook___gestionare_C.N.D.V.Orarstudenti,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.OrarstudentiTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.OrarstudentiTableAdapters.TableAdapterManager.UpdateAll(ManagementBook___gestionare_C.N.D.V.Orarstudenti)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.OrarstudentiTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.OrarstudentiTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.OrarstudentiTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:ManagementBook___gestionare_C.N.D.V.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ManagementBook___gestionare_C.N.D.V.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Situatiescolara.SituatiescolaraDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Situatiescolara.SituatiescolaraRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Situatiescolara.SituatiescolaraRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Situatiescolara">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.SituatiescolaraTableAdapters.SituatiescolaraTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.SituatiescolaraTableAdapters.TableAdapterManager.UpdateUpdatedRows(ManagementBook___gestionare_C.N.D.V.Situatiescolara,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.SituatiescolaraTableAdapters.TableAdapterManager.UpdateInsertedRows(ManagementBook___gestionare_C.N.D.V.Situatiescolara,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.SituatiescolaraTableAdapters.TableAdapterManager.UpdateDeletedRows(ManagementBook___gestionare_C.N.D.V.Situatiescolara,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.SituatiescolaraTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.SituatiescolaraTableAdapters.TableAdapterManager.UpdateAll(ManagementBook___gestionare_C.N.D.V.Situatiescolara)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.SituatiescolaraTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.SituatiescolaraTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.SituatiescolaraTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Clase2.ClaseDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Clase2.ClaseRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Clase2.ClaseRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Clase2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Clase2TableAdapters.ClaseTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.Clase2TableAdapters.TableAdapterManager.UpdateUpdatedRows(ManagementBook___gestionare_C.N.D.V.Clase2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.Clase2TableAdapters.TableAdapterManager.UpdateInsertedRows(ManagementBook___gestionare_C.N.D.V.Clase2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.Clase2TableAdapters.TableAdapterManager.UpdateDeletedRows(ManagementBook___gestionare_C.N.D.V.Clase2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.Clase2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.Clase2TableAdapters.TableAdapterManager.UpdateAll(ManagementBook___gestionare_C.N.D.V.Clase2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Clase2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Clase2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Clase2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Profesori.ProfesoriDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Profesori.ProfesoriRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Profesori.ProfesoriRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Profesori">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.ProfesoriTableAdapters.ProfesoriTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.ProfesoriTableAdapters.TableAdapterManager.UpdateUpdatedRows(ManagementBook___gestionare_C.N.D.V.Profesori,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.ProfesoriTableAdapters.TableAdapterManager.UpdateInsertedRows(ManagementBook___gestionare_C.N.D.V.Profesori,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.ProfesoriTableAdapters.TableAdapterManager.UpdateDeletedRows(ManagementBook___gestionare_C.N.D.V.Profesori,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.ProfesoriTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.ProfesoriTableAdapters.TableAdapterManager.UpdateAll(ManagementBook___gestionare_C.N.D.V.Profesori)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.ProfesoriTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.ProfesoriTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.ProfesoriTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Utilizator.UtilizatoriDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Utilizator.UtilizatoriRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Utilizator.UtilizatoriRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Utilizator">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.UtilizatorTableAdapters.UtilizatoriTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.UtilizatorTableAdapters.TableAdapterManager.UpdateUpdatedRows(ManagementBook___gestionare_C.N.D.V.Utilizator,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.UtilizatorTableAdapters.TableAdapterManager.UpdateInsertedRows(ManagementBook___gestionare_C.N.D.V.Utilizator,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.UtilizatorTableAdapters.TableAdapterManager.UpdateDeletedRows(ManagementBook___gestionare_C.N.D.V.Utilizator,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.UtilizatorTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.UtilizatorTableAdapters.TableAdapterManager.UpdateAll(ManagementBook___gestionare_C.N.D.V.Utilizator)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.UtilizatorTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.UtilizatorTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.UtilizatorTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Profile.ProfileDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Profile.ProfileRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Profile.ProfileRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.Profile">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.ProfileTableAdapters.ProfileTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.ProfileTableAdapters.TableAdapterManager.UpdateUpdatedRows(ManagementBook___gestionare_C.N.D.V.Profile,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.ProfileTableAdapters.TableAdapterManager.UpdateInsertedRows(ManagementBook___gestionare_C.N.D.V.Profile,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.ProfileTableAdapters.TableAdapterManager.UpdateDeletedRows(ManagementBook___gestionare_C.N.D.V.Profile,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.ProfileTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.ProfileTableAdapters.TableAdapterManager.UpdateAll(ManagementBook___gestionare_C.N.D.V.Profile)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.ProfileTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.ProfileTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.ProfileTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.DataSet1.StudentiDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.DataSet1.StudentiRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.DataSet1.StudentiRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.DataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.DataSet1TableAdapters.StudentiTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(ManagementBook___gestionare_C.N.D.V.DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(ManagementBook___gestionare_C.N.D.V.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(ManagementBook___gestionare_C.N.D.V.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ManagementBook___gestionare_C.N.D.V.DataSet1TableAdapters.TableAdapterManager.UpdateAll(ManagementBook___gestionare_C.N.D.V.DataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ManagementBook___gestionare_C.N.D.V.DataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

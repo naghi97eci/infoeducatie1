@@ -1,0 +1,598 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{77F1CA71-6F51-4B54-8251-30F0F18083B9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ManagementBook___gestionare_C.N.D.V.My.MyApplication</StartupObject>
+    <RootNamespace>ManagementBook___gestionare_C.N.D.V</RootNamespace>
+    <AssemblyName>ManagementBook - gestionare C.N.D.V</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <ManifestCertificateThumbprint>E2D93118A1D81F2B186180715AA15E7A82E9EFD3</ManifestCertificateThumbprint>
+    <ManifestKeyFile>ManagementBook - gestionare C.N.D.V_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Master\Desktop\WebSite1\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ManagementBook - gestionare C.N.D.V.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ManagementBook - gestionare C.N.D.V.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adauga Ora Prof.Designer.vb">
+      <DependentUpon>Adauga Ora Prof.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Adauga Ora Prof.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adauga Profesor.Designer.vb">
+      <DependentUpon>Adauga Profesor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Adauga Profesor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adauga situatie scolara.Designer.vb">
+      <DependentUpon>Adauga situatie scolara.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Adauga situatie scolara.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adauga Student.Designer.vb">
+      <DependentUpon>Adauga Student.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Adauga Student.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrare clase.Designer.vb">
+      <DependentUpon>Administrare clase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Administrare clase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrare Profile.Designer.vb">
+      <DependentUpon>Administrare Profile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Administrare Profile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autentificare.Designer.vb">
+      <DependentUpon>Autentificare.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Autentificare.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clase.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Clase.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Clase2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Clase2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modifica profesor.Designer.vb">
+      <DependentUpon>Modifica profesor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modifica profesor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modifica student.Designer.vb">
+      <DependentUpon>Modifica student.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modifica student.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adauga orar studenti.Designer.vb">
+      <DependentUpon>Adauga orar studenti.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Adauga orar studenti.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Orar Prof.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Orar Prof.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Orar Profesori.Designer.vb">
+      <DependentUpon>Orar Profesori.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Orar Profesori.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Orar studenti.Designer.vb">
+      <DependentUpon>Orar studenti.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Orar studenti.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Orarprof.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Orarprof.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Orarstudenti.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Orarstudenti.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Prof.Designer.vb">
+      <DependentUpon>Prof.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Prof.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profesori.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Profesori.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Profesori.vb">
+      <DependentUpon>Profesori.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Profile.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Profile.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Profile.vb">
+      <DependentUpon>Profile.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SitScolara.Designer.vb">
+      <DependentUpon>SitScolara.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SitScolara.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Situatie scolara.Designer.vb">
+      <DependentUpon>Situatie scolara.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Situatie scolara.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Situatiescolara.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Situatiescolara.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Studenti.Designer.vb">
+      <DependentUpon>Studenti.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Studenti.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilizator.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Utilizator.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Utilizatori.Designer.vb">
+      <DependentUpon>Utilizatori.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Utilizatori.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Adauga Ora Prof.resx">
+      <DependentUpon>Adauga Ora Prof.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Adauga Profesor.resx">
+      <DependentUpon>Adauga Profesor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Adauga situatie scolara.resx">
+      <DependentUpon>Adauga situatie scolara.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Adauga Student.resx">
+      <DependentUpon>Adauga Student.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare clase.resx">
+      <DependentUpon>Administrare clase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrare Profile.resx">
+      <DependentUpon>Administrare Profile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autentificare.resx">
+      <DependentUpon>Autentificare.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modifica profesor.resx">
+      <DependentUpon>Modifica profesor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modifica student.resx">
+      <DependentUpon>Modifica student.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Adauga orar studenti.resx">
+      <DependentUpon>Adauga orar studenti.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orar Profesori.resx">
+      <DependentUpon>Orar Profesori.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orar studenti.resx">
+      <DependentUpon>Orar studenti.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prof.resx">
+      <DependentUpon>Prof.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SitScolara.resx">
+      <DependentUpon>SitScolara.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Situatie scolara.resx">
+      <DependentUpon>Situatie scolara.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Studenti.resx">
+      <DependentUpon>Studenti.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilizatori.resx">
+      <DependentUpon>Utilizatori.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slantright.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inchidere.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\studenti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profesori.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\situatiescolara.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orarstudenti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adaugastudent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Adaugaprofesor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Adaugaorarstudenti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ManagementBook - gestionare C.N.D.V_TemporaryKey.pfx" />
+    <None Include="Resources\adaugaorar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forward_arrow_button_next_right_media_mail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flat_seo2-50-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xposed-gel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-address-book-delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-user-cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\index.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Undo_arrow_left_edit_back_cancel_rotate_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled12-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-sdad1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Orarprof.xsc">
+      <DependentUpon>Orarprof.xsd</DependentUpon>
+    </None>
+    <None Include="Orarprof.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Orarprof.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Orarprof.xss">
+      <DependentUpon>Orarprof.xsd</DependentUpon>
+    </None>
+    <None Include="Profesori.xsc">
+      <DependentUpon>Profesori.xsd</DependentUpon>
+    </None>
+    <None Include="Profesori.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Profesori.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Profesori.xss">
+      <DependentUpon>Profesori.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\Untisdadtled-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stergere.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Orar Prof.xsc">
+      <DependentUpon>Orar Prof.xsd</DependentUpon>
+    </None>
+    <None Include="Orar Prof.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Orar Prof.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Orar Prof.xss">
+      <DependentUpon>Orar Prof.xsd</DependentUpon>
+    </None>
+    <None Include="Orarstudenti.xsc">
+      <DependentUpon>Orarstudenti.xsd</DependentUpon>
+    </None>
+    <None Include="Orarstudenti.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Orarstudenti.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Orarstudenti.xss">
+      <DependentUpon>Orarstudenti.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\xposed-gel copy.png" />
+    <None Include="Situatiescolara.xsc">
+      <DependentUpon>Situatiescolara.xsd</DependentUpon>
+    </None>
+    <None Include="Situatiescolara.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Situatiescolara.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Situatiescolara.xss">
+      <DependentUpon>Situatiescolara.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8rQCrfd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\700px-Graduated_Blue_Background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gray-plain-website-background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Profile.xsc">
+      <DependentUpon>Profile.xsd</DependentUpon>
+    </None>
+    <None Include="Profile.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Profile.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Profile.xss">
+      <DependentUpon>Profile.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check-mark-3-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check-mark-3-512 copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Clase.xsc">
+      <DependentUpon>Clase.xsd</DependentUpon>
+    </None>
+    <None Include="Clase.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Clase.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Clase.xss">
+      <DependentUpon>Clase.xsd</DependentUpon>
+    </None>
+    <None Include="Clase2.xsc">
+      <DependentUpon>Clase2.xsd</DependentUpon>
+    </None>
+    <None Include="Clase2.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Clase2.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Clase2.xss">
+      <DependentUpon>Clase2.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\dT8xnAqAc copy.png" />
+    <None Include="Utilizator.xsc">
+      <DependentUpon>Utilizator.xsd</DependentUpon>
+    </None>
+    <None Include="Utilizator.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Utilizator.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Utilizator.xss">
+      <DependentUpon>Utilizator.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database_security-512.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

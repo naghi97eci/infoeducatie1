@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Basic Express 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ManagementBook - gestionare C.N.D.V", "ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V.vbproj", "{77F1CA71-6F51-4B54-8251-30F0F18083B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77F1CA71-6F51-4B54-8251-30F0F18083B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77F1CA71-6F51-4B54-8251-30F0F18083B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77F1CA71-6F51-4B54-8251-30F0F18083B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77F1CA71-6F51-4B54-8251-30F0F18083B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

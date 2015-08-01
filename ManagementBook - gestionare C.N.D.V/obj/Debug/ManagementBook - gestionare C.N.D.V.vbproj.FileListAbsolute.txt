@@ -1,0 +1,46 @@
+C:\Users\Master\AppData\Local\Temporary Projects\ManagementBook - gestionare C.N.D.V\bin\Debug\ManagementBook - gestionare C.N.D.V.exe
+C:\Users\Master\AppData\Local\Temporary Projects\ManagementBook - gestionare C.N.D.V\bin\Debug\ManagementBook - gestionare C.N.D.V.pdb
+C:\Users\Master\AppData\Local\Temporary Projects\ManagementBook - gestionare C.N.D.V\bin\Debug\ManagementBook - gestionare C.N.D.V.xml
+C:\Users\Master\AppData\Local\Temporary Projects\ManagementBook - gestionare C.N.D.V\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Master\AppData\Local\Temporary Projects\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook___gestionare_C.N.D.V.Form1.resources
+C:\Users\Master\AppData\Local\Temporary Projects\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook___gestionare_C.N.D.V.Resources.resources
+C:\Users\Master\AppData\Local\Temporary Projects\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook - gestionare C.N.D.V.vbproj.GenerateResource.Cache
+C:\Users\Master\AppData\Local\Temporary Projects\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook - gestionare C.N.D.V.exe
+C:\Users\Master\AppData\Local\Temporary Projects\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook - gestionare C.N.D.V.xml
+C:\Users\Master\AppData\Local\Temporary Projects\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook - gestionare C.N.D.V.pdb
+C:\Gestionare C.N.D.V. ( Mbook )\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook - gestionare C.N.D.V.exe
+C:\Gestionare C.N.D.V. ( Mbook )\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook - gestionare C.N.D.V.xml
+C:\Gestionare C.N.D.V. ( Mbook )\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook - gestionare C.N.D.V.pdb
+C:\Gestionare C.N.D.V. ( Mbook )\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\bin\Debug\ManagementBook - gestionare C.N.D.V.exe
+C:\Gestionare C.N.D.V. ( Mbook )\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\bin\Debug\ManagementBook - gestionare C.N.D.V.pdb
+C:\Gestionare C.N.D.V. ( Mbook )\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\bin\Debug\ManagementBook - gestionare C.N.D.V.xml
+C:\Gestionare C.N.D.V. ( Mbook )\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\obj\Debug\ResolveAssemblyReference.cache
+C:\Gestionare C.N.D.V. ( Mbook )\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook___gestionare_C.N.D.V.Form1.resources
+C:\Gestionare C.N.D.V. ( Mbook )\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook___gestionare_C.N.D.V.Resources.resources
+C:\Gestionare C.N.D.V. ( Mbook )\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook - gestionare C.N.D.V.vbproj.GenerateResource.Cache
+C:\Gestionare C.N.D.V. ( Mbook )\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\bin\Debug\ManagementBook - gestionare C.N.D.V.exe.manifest
+C:\Gestionare C.N.D.V. ( Mbook )\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\bin\Debug\ManagementBook - gestionare C.N.D.V.application
+C:\Gestionare C.N.D.V. ( Mbook )\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook___gestionare_C.N.D.V.Studenti.resources
+C:\Gestionare C.N.D.V. ( Mbook )\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook - gestionare C.N.D.V.exe.manifest
+C:\Gestionare C.N.D.V. ( Mbook )\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook - gestionare C.N.D.V.application
+C:\Gestionare C.N.D.V. ( Mbook )\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\bin\Debug\ManagementBook - gestionare C.N.D.V.exe.config
+C:\Gestionare C.N.D.V. ( Mbook )\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook___gestionare_C.N.D.V.Adauga_Student.resources
+C:\Gestionare C.N.D.V. ( Mbook )\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook___gestionare_C.N.D.V.Modifica_student.resources
+C:\Gestionare C.N.D.V. ( Mbook )\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook___gestionare_C.N.D.V.Adauga_Profesor.resources
+C:\Gestionare C.N.D.V. ( Mbook )\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook___gestionare_C.N.D.V.Prof.resources
+C:\Gestionare C.N.D.V. ( Mbook )\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook___gestionare_C.N.D.V.Modifica_profesor.resources
+C:\Gestionare C.N.D.V. ( Mbook )\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook___gestionare_C.N.D.V.Orar_Profesori.resources
+C:\Gestionare C.N.D.V. ( Mbook )\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook___gestionare_C.N.D.V.Adauga_Ora_Prof.resources
+C:\Gestionare C.N.D.V. ( Mbook )\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook___gestionare_C.N.D.V.Modificare_orar_prof.resources
+C:\Gestionare C.N.D.V. ( Mbook )\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook___gestionare_C.N.D.V.Orar_studenti.resources
+C:\Gestionare C.N.D.V. ( Mbook )\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook___gestionare_C.N.D.V.Adauga_situatie_scolara.resources
+C:\Gestionare C.N.D.V. ( Mbook )\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook___gestionare_C.N.D.V.Situatie_scolara.resources
+C:\Gestionare C.N.D.V. ( Mbook )\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook___gestionare_C.N.D.V.Administrare_Profile.resources
+C:\Gestionare C.N.D.V. ( Mbook )\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook___gestionare_C.N.D.V.Administrare_clase.resources
+C:\Gestionare C.N.D.V. ( Mbook )\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook___gestionare_C.N.D.V.SitScolara.resources
+C:\Gestionare C.N.D.V. ( Mbook )\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook___gestionare_C.N.D.V.Utilizatori.resources
+C:\Gestionare C.N.D.V. ( Mbook )\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook___gestionare_C.N.D.V.Autentificare.resources
+C:\Gestionare C.N.D.V. ( Mbook )\infoeducatie\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\bin\Debug\ManagementBook - gestionare C.N.D.V.exe.config
+C:\Gestionare C.N.D.V. ( Mbook )\infoeducatie\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook - gestionare C.N.D.V.exe
+C:\Gestionare C.N.D.V. ( Mbook )\infoeducatie\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook - gestionare C.N.D.V.xml
+C:\Gestionare C.N.D.V. ( Mbook )\infoeducatie\ManagementBook - gestionare C.N.D.V\ManagementBook - gestionare C.N.D.V\obj\Debug\ManagementBook - gestionare C.N.D.V.pdb
